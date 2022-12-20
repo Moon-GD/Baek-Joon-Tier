@@ -1,3 +1,4 @@
+# 설명 링크 : https://moon-gd.tistory.com/139   
 import collections
 
 # declare : queue

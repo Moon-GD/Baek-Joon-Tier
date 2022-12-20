@@ -1,3 +1,4 @@
+// 설명 링크 : https://moon-gd.tistory.com/139
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #define MAX 150000
@@ -23,9 +24,6 @@ int distance[MAX];
 
 // declare : N - my position, K - brother position
 int N, K;
-
-// declare : function that returns min(a, b)
-int get_min(int a, int b);
 
 int main() {
 	// get input : N, K
@@ -111,14 +109,4 @@ node deque() {
 
 	// deque
 	return queue[front];
-}
-
-// return min(a, b)
-int get_min(int a, int b) {
-	if (a > b) {
-		return b;
-	}
-	else {
-		return a;
-	}
 }
